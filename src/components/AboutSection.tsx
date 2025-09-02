@@ -5,10 +5,7 @@ import { Button } from "./ui/button";
 import { motion, useAnimationControls } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Code, Database, Server, Laptop } from "lucide-react";
-import myprofile1 from "../assets/myprofile1.jpg";
-import myprofile2 from "../assets/myprofile2.jpg";
-import myprofile3 from "../assets/myprofile3.png";
-import myprofile4 from "../assets/myprofile4.png";
+import myProfilePic from "../assets/my-profile-pic.png"
 
 export function AboutSection() {
   const [hovered, setHovered] = useState(false);
@@ -65,9 +62,9 @@ export function AboutSection() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">Competitive Programmer</h3>
+              <h3 className="text-xl font-bold">Avid learner</h3>
               <p className="text-base">
-                I am a passionate Competitive Programmer who loves solving challenging algorithmic
+                I am a passionate learner who loves solving challenging algorithmic
                 problems and optimizing solutions. Constantly striving for growth, I enjoy learning and
                 contributing to the problem-solving community.
               </p>
@@ -153,7 +150,7 @@ export function AboutSection() {
                 </div>
 
                 <motion.img
-                  src={myprofile4}
+                  src={myProfilePic}
                   alt="Developer illustration"
                   className="w-full h-[450px] z-0 transition-all duration-700 object-contain drop-shadow-2xl shadow-primary shadow-lg"
                   whileHover={{ scale: 1.05 }}

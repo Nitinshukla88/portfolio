@@ -150,7 +150,7 @@ export function Loader({ onLoadingComplete }: LoaderProps) {
                     ease: "easeInOut" 
                   }}
                 >
-                  NK
+                  NS
                 </motion.div>
               </motion.div>
             </div>
@@ -162,7 +162,7 @@ export function Loader({ onLoadingComplete }: LoaderProps) {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              <h2 className="text-2xl font-bold text-foreground mb-1">Nammi Kusuma</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-1">Nitin Shukla</h2>
               <p className="text-muted-foreground">Full Stack Developer</p>
             </motion.div>
             
