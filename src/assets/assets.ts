@@ -1,4 +1,3 @@
-import hosthive from "./hosthive.png";
 import swiftbites from "./swiftbites.png";
 import stripe from "./Stripe.png";
 import myportfolio from "./myportfolio.png";
@@ -11,11 +10,11 @@ import ztech from "./zy1.png";
 import syw2 from "./syw2.png";
 import codechef from "./codechef.svg";
 import geeksforgeeks from "./geeksforgeeks.svg";
-import tasknest from "./tasknest.png";
-import finory from "./finory.png";
+import docduce from "./docduce.png"
+import geekmatch from "./geekmatch.png"
+import movieverse from "./movieverse.png"
 
 export const assets = {
-    hosthive,
     swiftbites,
     stripe,
     myportfolio,
@@ -28,6 +27,7 @@ export const assets = {
     syw2,
     codechef,
     geeksforgeeks,
-    tasknest,
-    finory
+    docduce,
+    geekmatch,
+    movieverse
 }

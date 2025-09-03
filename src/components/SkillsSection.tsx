@@ -83,6 +83,7 @@ const skillCategories = [
       // { name: "Cypress", image: "https://asset.brandfetch.io/idFdo8ulhr/idzj3BeQnk.png" },
       { name: "RESTful APIs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
       { name: "WebSockets", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" },
+      { name: "WebRTC", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" },
       // { name: "Agile", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
       // { name: "WebRTC", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webRTC/webRTC-original.svg" },
     ],
