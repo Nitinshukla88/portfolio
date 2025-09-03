@@ -1,10 +1,4 @@
-import swiftbites from "./swiftbites.png";
-import stripe from "./Stripe.png";
 import myportfolio from "./myportfolio.png";
-import weatherapp from "./weather-app.png";
-import cc from "./cc.png";
-import rps from "./rps.png";
-import spotify from "./spotify.png";
 import traveljournal from "./traveljournal.png";
 import ztech from "./zy1.png";
 import syw2 from "./syw2.png";
@@ -13,15 +7,14 @@ import geeksforgeeks from "./geeksforgeeks.svg";
 import docduce from "./docduce.png"
 import geekmatch from "./geekmatch.png"
 import movieverse from "./movieverse.png"
+import youtubeclone from "./youtube-clone.png"
+import groovebox from "./groovebox.png"
+import jumpmania from "./jumpmania.png"
+import tictactoe from "./tictactoe.png"
+import weathery from "./weathery.png"
 
 export const assets = {
-    swiftbites,
-    stripe,
     myportfolio,
-    weatherapp,
-    cc,
-    rps,
-    spotify,
     traveljournal,
     ztech,
     syw2,
@@ -29,5 +22,10 @@ export const assets = {
     geeksforgeeks,
     docduce,
     geekmatch,
-    movieverse
+    movieverse,
+    youtubeclone,
+    groovebox,
+    jumpmania,
+    tictactoe,
+    weathery
 }
