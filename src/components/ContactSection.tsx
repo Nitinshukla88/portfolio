@@ -32,22 +32,22 @@ export function ContactSection() {
   const socialLinks = [
     {
       name: "Email",
-      value: "kusumanammi0809@gmail.com",
-      href: "mailto:kusumanammi0809@gmail.com",
+      value: "nitin.shukla12004@gmail.com",
+      href: "mailto:nitin.shukla12004@gmail.com",
       icon: Mail,
       color: "bg-gradient-to-r from-pink-500 to-violet-500"
     },
     {
       name: "GitHub",
-      value: "github.com/Nammi-Kusuma",
-      href: "https://github.com/Nammi-Kusuma",
+      value: "github.com/Nitinshukla88",
+      href: "https://github.com/Nitinshukla88",
       icon: Github,
       color: "bg-gradient-to-r from-gray-700 to-gray-900"
     },
     {
       name: "LinkedIn",
-      value: "linkedin.com/in/kusumanammi",
-      href: "https://linkedin.com/in/kusumanammi",
+      value: "linkedin.com/in/nitin-shukla",
+      href: "https://www.linkedin.com/in/nitin-shukla-463730259/",
       icon: Linkedin,
       color: "bg-gradient-to-r from-blue-600 to-blue-800"
     },
@@ -57,13 +57,13 @@ export function ContactSection() {
   const contactInfo = [
     {
       title: "Location",
-      value: "Visakhapatnam, AP",
+      value: "Kanpur, UP",
       icon: MapPin,
       color: "from-green-400 to-emerald-600"
     },
     {
       title: "Phone",
-      value: "+91 9392504116",
+      value: "+91 8924029381",
       icon: Phone,
       color: "from-amber-400 to-orange-600"
     },
@@ -216,7 +216,7 @@ export function ContactSection() {
                     <h4 className="text-xs xs:text-sm font-medium text-muted-foreground">{link.name}</h4>
                     <p className="text-sm xs:text-base font-semibold group-hover:text-primary transition-colors truncate">{link.value}</p>
                   </div>
-                  <ArrowRight className="h-3 w-3 xs:h-4 xs:w-4 text-muted-foreground group-hover:text-primary transition-colors opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-300" />
+                  <ArrowRight className="h-3 w-3 xs:h-4 xs:w-4 text-muted-foreground group-hover:text-primary opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-300" />
                 </motion.a>
               ))}
             </div>

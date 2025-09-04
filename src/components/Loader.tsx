@@ -163,15 +163,16 @@ export function Loader({ onLoadingComplete }: LoaderProps) {
               transition={{ delay: 0.5 }}
             >
               <h2 className="text-2xl font-bold text-foreground mb-1">Nitin Shukla</h2>
-              <p className="text-muted-foreground">Full Stack Developer</p>
+              <p className="text-muted-foreground">FullStack Developer</p>
             </motion.div>
             
             {/* Progress bar */}
             <div className="w-full max-w-xs bg-card/50 rounded-full h-2 overflow-hidden border border-border/50">
               <motion.div 
-                className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-primary"
-                style={{ width: `${progress}%` }}
+                className="h-full bg-gradient-to-r bg-blue-500"
+                animate={{ width: `${progress}%` }}
                 initial={{ width: "0%" }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
               />
             </div>
             
