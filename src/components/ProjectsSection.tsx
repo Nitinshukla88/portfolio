@@ -381,29 +381,33 @@ const projects = [
     ],
   },
   {
-    title: "Travel Journal (UI Design)",
-    description:
-      "A static travel journal interface designed using React and CSS. This project focuses on clean visual layout, responsiveness, and modern UI aesthetics.",
-    image: assets.traveljournal,
+    title: "Calculator",
+      description:
+        "A simple yet elegant calculator built with pure HTML, CSS, and JavaScript. It offers basic arithmetic operations with a clean, responsive interface, making calculations quick and user-friendly on any device.",
+    image: assets.calculator,
     tags: [
       {
-        name: "React",
+        name: "HTML",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
       {
         name: "CSS",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
+      {
+        name: "JavaScript",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
     ],
-    liveLink: "https://nammi-kusuma.github.io/travel-journal/",
-    sourceLink: "https://github.com/Nammi-Kusuma/travel-journal",
+    liveLink: "https://calculator-mauve-nine-60.vercel.app/",
+    sourceLink: "https://github.com/Nitinshukla88/Calculator",
     keyFeatures: [
-      "🖼️ Visually appealing layout for showcasing travel destinations",
-      "📍 Location and description sections styled for clarity and balance",
-      "🎨 Fully responsive and mobile-friendly UI",
-      "🧩 Reusable React components for consistent design",
+    "🧮 Perform basic arithmetic operations (addition, subtraction, multiplication, division)",
+    "⚡ Instant calculation results without any lag",
+    "💻 Built with pure HTML, CSS, and JavaScript",
     ],
   },
 ];

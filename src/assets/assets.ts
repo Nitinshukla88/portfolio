@@ -1,5 +1,4 @@
 import myportfolio from "./myportfolio.png";
-import traveljournal from "./traveljournal.png";
 import ztech from "./zy1.png";
 import syw2 from "./syw2.png";
 import codechef from "./codechef.svg";
@@ -12,10 +11,10 @@ import groovebox from "./groovebox.png"
 import jumpmania from "./jumpmania.png"
 import tictactoe from "./tictactoe.png"
 import weathery from "./weathery.png"
+import calculator from "./calculator.png"
 
 export const assets = {
     myportfolio,
-    traveljournal,
     ztech,
     syw2,
     codechef,
@@ -27,5 +26,6 @@ export const assets = {
     groovebox,
     jumpmania,
     tictactoe,
-    weathery
+    weathery,
+    calculator
 }
