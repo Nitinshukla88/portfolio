@@ -9,37 +9,66 @@ import { Button } from "./ui/button";
 
 const achievements = [
   {
-    title: "Top 4 in Coding Competition",
+    title: "Passed Postman Certification",
     year: "2023",
-    description: "Secured 4th place in College Level Coding Competition",
+    description: "Qualified Postman API Fundamentals Student Expert Certification Exam by demonstrating proficiency in API testing and development",
     icon: Award,
     features: [
-      "Solved complex problems under time constraints",
-      "Competed against 100+ participants",
-      "Demonstrated strong problem-solving skills"
+      "First learned all the basics of APIs and API testing",
+      "Practiced with Postman to test APIs",
+      "In the end, I successfully passed the certification exam"
     ]
   },
   {
-    title: "CP Lead at Student Chapter",
-    year: "2024-25",
-    description: "CP Lead at Algozenith VIIT Chapter, organizing workshops and competitions for 500+ students",
+    title: "Got a rank of 4k in TCS CodeVita",
+    year: "2024",
+    description: "Participated in TCS CodeVita and secured a rank of 4000 among 10000+ participants",
     icon: Star,
     features: [
-      "Organized 10+ coding workshops and competitions",
-      "Mentored junior students in DSA and CP concepts",
-      "Worked on an active community of competitive programmers"
+      "Solved complex problems under time constraints",
+      "Demonstrated strong coding and problem-solving skills",
     ]
   },
   {
-    title: "Published Technical Article",
+    title: "Achieved LiFT Scholarship",
     year: "2024",
-    description: "Published a technical article on Algozenith's website about DSA concepts",
-    link: "https://algozenith-viit.vercel.app/articles/top-5-data-structures-for-every-developer",
-    icon: FileText,
+    description: "Awarded the Shubhra Kar Linux Foundation Training Scholarship for demonstrating excellence in Linux and open-source technologies",
+    icon: Trophy,
     features: [
-      "Explained complex DSA concepts in simple terms",
-      "Received positive feedback from readers",
-      "Contributed to the coding community's knowledge base"
+      "Completed a comprehensive training program on Linux and open-source tools",
+      "Contributed to open-source projects as part of the scholarship",
+      "Gained hands-on experience with real-world applications of Linux"
+    ]
+  },
+  {
+    title: "Awarded Keploy API fellowship",
+    year: "2025",
+    description: "It's a 3-weeks training cohort focused on API development and testing. Out of 18.7K+ applicants, I was selected as one of the 1K fellows.",
+    icon: Medal,
+    features: [
+      "Completed a comprehensive training program on API development and testing",
+      "Gained hands-on experience with real-world applications of API technologies"
+    ]
+  },
+  {
+    title: "Passed KCNA Certification",
+    year: "2025",
+    description: "Successfully cleared the KCNA (Kubernetes and Cloud Native Associate) certification by demonstrating proficiency in Kubernetes and cloud-native technologies.",
+    link: "https://www.credly.com/badges/30a71ef2-a467-47f0-9967-a1a271454724/public_url",
+    icon: Award,
+    features: [
+    "Recognized for contributions to Cloud Native Computing Foundation projects",
+    "Awarded for excellence and impact in the cloud native community"
+    ]
+  },
+  {
+    title: "Got Dan Kohn Scholarship",
+    year: "2025",
+    description: "Awarded the Dan Kohn Scholarship for contributions in Cloud Native Computing Foundation Projects.",
+    icon: Trophy,
+    features: [
+    "Demonstrated proficiency in Kubernetes and cloud-native technologies",
+    "Successfully cleared the KCNA certification exam with hands-on expertise"
     ]
   }
 ];
@@ -127,7 +156,7 @@ export function AchievementsSection() {
                                   rel="noopener noreferrer"
                                   className="text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1 text-sm"
                                 >
-                                  <span>View Blog</span>
+                                  <span>View Badge</span>
                                   <ExternalLink className="h-4 w-4" />
                                 </a>
                               )}
