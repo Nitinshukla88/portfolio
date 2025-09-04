@@ -12,49 +12,48 @@ import { assets } from "@/assets/assets";
 const codingProfiles = [
   {
     name: "LeetCode",
-    username: "kusuma08",
-    rating: "1500+",
-    solved: "350+",
+    username: "Nitin_777",
+    rating: "Unrated",
+    solved: "200+",
     achievements: [
-      "4 Badges",
-      "Top 30% globally",
-      "255 Days Streak"
+      "2 Badges",
+      // "Top 30% globally",
+      "15 Days Streak"
     ],
-    link: "https://leetcode.com/u/kusuma08/",
+    link: "https://leetcode.com/u/Nitin_777/",
     logo: "https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png",
     badge: "Gold",
     badgeColor: "bg-amber-500",
     progress: 50,
     problemsLabel: "Problems Solved",
   },
-  {
-    name: "CodeChef",
-    username: "kusuma08",
-    rating: "3★ (1614)",
-    solved: "400+",
-    achievements: [
-      "Participated in 70+ contests",
-      "Top 10% on platform",
-      "100 Days Streak"
-    ],
-    link: "https://www.codechef.com/users/kusuma08",
-    logo: assets.codechef,
-    badge: "Expert",
-    badgeColor: "bg-blue-500",
-    progress: 65,
-    problemsLabel: "Problems Solved",
-  },
+  // {
+  //   name: "CodeChef",
+  //   username: "kusuma08",
+  //   rating: "3★ (1614)",
+  //   solved: "400+",
+  //   achievements: [
+  //     "Participated in 70+ contests",
+  //     "Top 10% on platform",
+  //     "100 Days Streak"
+  //   ],
+  //   link: "https://www.codechef.com/users/kusuma08",
+  //   logo: assets.codechef,
+  //   badge: "Expert",
+  //   badgeColor: "bg-blue-500",
+  //   progress: 65,
+  //   problemsLabel: "Problems Solved",
+  // },
   {
     name: "Geeks For Geeks",
-    username: "nkusuma",
-    solved: "170+",
+    username: "nitinshukvrgf",
+    solved: "50+",
     rating: "--",
     achievements: [
       "Problem Solver",
-      "80+ Days Streak",
-      "Won GFG Bag"
+      "15+ Days Streak",
     ],
-    link: "https://www.geeksforgeeks.org/user/nkusuma/",
+    link: "https://www.geeksforgeeks.org/user/nitinshukvrgf/",
     logo: assets.geeksforgeeks,
     badge: "Gold",
     badgeColor: "bg-amber-500",
@@ -63,15 +62,15 @@ const codingProfiles = [
   },
   {
     name: "GitHub",
-    username: "Nammi-Kusuma",
+    username: "Nitinshukla88",
     rating: "--",
-    solved: "25+",
+    solved: "40+",
     achievements: [
-      "300+ contributions",
-      "25+ PRs merged",
-      "10+ Stars received"
+      "600+ contributions",
+      "10+ PRs merged",
+      // "10+ Stars received"
     ],
-    link: "https://github.com/Nammi-Kusuma",
+    link: "https://github.com/Nitinshukla88",
     logo: "https://cdn.iconscout.com/icon/free/png-256/free-github-153-675523.png",
     badge: "Active",
     badgeColor: "bg-green-500",
