@@ -14,7 +14,7 @@ export function Footer() {
           
           <div className="flex gap-4 mb-6">
             <a
-              href="https://github.com/Nammi-Kusuma"
+              href="https://github.com/Nitinshukla88"
               target="_blank"
               rel="noopener noreferrer"
               className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
@@ -23,7 +23,7 @@ export function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com/in/kusumanammi"
+              href="https://www.linkedin.com/in/nitin-shukla-463730259/"
               target="_blank"
               rel="noopener noreferrer"
               className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
@@ -32,7 +32,7 @@ export function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="mailto:kusumanammi0809@gmail.com"
+              href="mailto:nitin.shukla12004@gmail.com"
               className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
               aria-label="Email"
             >
@@ -41,10 +41,10 @@ export function Footer() {
           </div>
           
           <div className="text-center text-xs sm:text-sm text-muted-foreground">
-            <p className="text-[11px] sm:text-sm">&copy; {new Date().getFullYear()} Kusuma Nammi. All rights reserved.</p>
+            <p className="text-[11px] sm:text-sm">&copy; {new Date().getFullYear()} Nitin Shukla. All rights reserved.</p>
             <div className="mt-1 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 group">
               <p className="flex items-center gap-1 sm:gap-1.5">
-                Crafted with <span className="group-hover:animate-bounce transition-transform duration-200">💻</span> and <span className="animate-heartbeat text-red-500">❤️</span>
+                Crafted with <span className="group-hover:animate-bounce transition-transform duration-200">💻</span> and <span className="animate-pulse text-red-500">❤️</span>
               </p>
               <p>by a passionate developer</p>
             </div>

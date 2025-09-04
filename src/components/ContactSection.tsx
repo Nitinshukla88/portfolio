@@ -1,6 +1,6 @@
 
 import { useState, useRef } from "react";
-import { Github, Linkedin, Mail, MessageSquare, Send, CheckCircle, ArrowRight, MapPin, Phone, Clock } from "lucide-react";
+import { Github, Linkedin, Mail, MessageSquare, Send, CheckCircle, ArrowRight, MapPin, Phone, Clock, Link, FileText } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { SectionWrapper } from "./SectionWrapper";
 import { toast } from "@/components/ui/use-toast";
@@ -56,6 +56,13 @@ export function ContactSection() {
   // Contact info cards
   const contactInfo = [
     {
+      title: "Resume",
+      value: "View My Resume",
+      icon: FileText,
+      color: "from-blue-400 to-indigo-600",
+      link : "https://drive.google.com/file/d/1Y5EeCNEAdVAbQpOOnI9dzTyHJxz82cHb/view?usp=sharing"
+    },
+    {
       title: "Location",
       value: "Kanpur, UP",
       icon: MapPin,
@@ -66,12 +73,6 @@ export function ContactSection() {
       value: "+91 8924029381",
       icon: Phone,
       color: "from-amber-400 to-orange-600"
-    },
-    {
-      title: "Quick Response",
-      value: "Within 24 hours",
-      icon: Clock,
-      color: "from-blue-400 to-indigo-600"
     },
   ];
 
@@ -155,7 +156,7 @@ export function ContactSection() {
               transition={{ delay: 0.3 + (index * 0.1), duration: 0.5 }}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
-              <Card className="border border-border/50 bg-card/30 backdrop-blur-sm hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
+              {info.link ? (<a href={info.link} target="_blank" rel="noopener noreferrer" className="block h-full"><Card className="border border-border/50 bg-card/30 backdrop-blur-sm hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
                 <CardContent className="p-3 xs:p-4 sm:p-6 flex flex-col xs:flex-row items-center gap-2 xs:gap-3 sm:gap-4 h-full">
                   <div className={`h-10 w-10 xs:h-12 xs:w-12 rounded-lg bg-gradient-to-r ${info.color} flex items-center justify-center shadow-lg shrink-0`}>
                     <info.icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
@@ -165,7 +166,17 @@ export function ContactSection() {
                     <p className="text-sm xs:text-base font-semibold break-words">{info.value}</p>
                   </div>
                 </CardContent>
-              </Card>
+              </Card></a>) : (<Card className="border border-border/50 bg-card/30 backdrop-blur-sm hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
+                <CardContent className="p-3 xs:p-4 sm:p-6 flex flex-col xs:flex-row items-center gap-2 xs:gap-3 sm:gap-4 h-full">
+                  <div className={`h-10 w-10 xs:h-12 xs:w-12 rounded-lg bg-gradient-to-r ${info.color} flex items-center justify-center shadow-lg shrink-0`}>
+                    <info.icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+                  </div>
+                  <div className="text-center xs:text-left">
+                    <h4 className="text-xs xs:text-sm font-medium text-muted-foreground mb-0.5 xs:mb-1">{info.title}</h4>
+                    <p className="text-sm xs:text-base font-semibold break-words">{info.value}</p>
+                  </div>
+                </CardContent>
+              </Card>)}
             </motion.div>
           ))}
 
