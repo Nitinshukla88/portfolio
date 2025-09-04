@@ -81,29 +81,30 @@ const codingProfiles = [
 
 const codingJourney = [
   {
-    year: "2022",
-    event: "Started Competitive Programming Journey",
-    description: "Began with CodeChef and learned fundamental algorithms"
+    year: "2023",
+    event: "Started FullStack developer Journey",
+    description: "Began with fundamental concepts of web development"
   },
   {
-    year: "2023",
-    event: "Achieved CodeChef 2★ Rating",
-    description: "Solved 400+ problems and participated in 70+ contests"
+    year: "23-24",
+    event: "Built initial web applications using Js",
+    description: "Gained hands-on experience in vanilla JavaScript alongside coding with Java"
   },
   {
     year: "2024",
-    event: "Python Backend Developer Intern",
-    description: "Built RESTful APIs and implemented backend functionalities using FastAPI"
-  },
-  {
-    year: "24-25",
-    event: "CP Lead at Algozenith VIIT Chapter",
-    description: "Led coding initiatives and organized technical workshops for 500+ students"
+    event: "Started learning frameworks and Libraries",
+    // description: "Built RESTful APIs and implemented backend functionalities using FastAPI"
+    description: "Dived into React and Redux for frontend development"
   },
   {
     year: "2025",
-    event: "Full Stack Developer",
-    description: "Building production-grade applications with React, Node.js, and AWS"
+    event: "Started Learning backend with TypeScript",
+    description: "Built RESTful APIs and made fullStack projects using Express.js"
+  },
+  {
+    year: "2026",
+    event: "Will Continue Learning and Growing",
+    description: "Embracing new challenges and technologies to enhance my skill set"
   },
 ];
 
