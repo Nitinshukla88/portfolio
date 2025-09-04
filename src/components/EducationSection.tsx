@@ -8,17 +8,17 @@ import { motion } from "framer-motion";
 const educations = [
   {
     degree: "Computer Science and Engineering",
-    institution: "Vignan's Institute of Information Technology",
-    year: "2022 - 2026",
-    description: "Focused on Advanced Algorithms and Machine Learning",
+    institution: "Pranveer Singh Institute of Technology",
+    year: "2023 - 2027",
+    description: "Focused on Advanced Algorithms and Software Development",
     achievements: "CGPA: 9.1"
   },
   {
     degree: "Online Specializations",
     institution: "Various Platforms",
     year: "Ongoing",
-    description: "Continuous learning through courses on platforms like Coursera, edX, and Udemy",
-    achievements: "20+ Certifications in various technologies"
+    description: "Continuous learning through courses on platforms like Linux Foundation, Kodekloud and Postman Academy",
+    achievements: "5+ Certifications in various technologies"
   }
 ];
 
