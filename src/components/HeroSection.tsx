@@ -206,7 +206,7 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-start gap-3 pt-4">
+            <div className="flex flex-col sm:flex-row items-center gap-3 pt-4">
               <Button 
                 variant="default" 
                 size="lg" 

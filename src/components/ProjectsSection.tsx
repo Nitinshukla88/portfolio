@@ -229,12 +229,12 @@ const projects = [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
-        name: "Netlify",
+        name: "Vercel",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
       },
     ],
-    liveLink: "https://portfolio-kusuma.netlify.app/",
+    liveLink: "https://www.knowsnitin.dev/",
     sourceLink: "https://github.com/Nitinshukla88/portfolio",
     keyFeatures: [
       "🎨 Clean, minimalist UI with Tailwind CSS",
