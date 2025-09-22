@@ -60,7 +60,7 @@ export function ContactSection() {
       value: "View My Resume",
       icon: FileText,
       color: "from-blue-400 to-indigo-600",
-      link : "https://drive.google.com/file/d/1Y5EeCNEAdVAbQpOOnI9dzTyHJxz82cHb/view?usp=sharing"
+      link : "https://drive.google.com/file/d/11WOPHXbLQAQYndaFwZtrdFL1Nzh4C0LY/view?usp=sharing"
     },
     {
       title: "Location",
