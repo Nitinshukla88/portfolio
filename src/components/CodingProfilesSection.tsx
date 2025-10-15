@@ -13,12 +13,11 @@ const codingProfiles = [
   {
     name: "LeetCode",
     username: "Nitin_777",
-    rating: "Unrated",
+    rating: "1415",
     solved: "200+",
     achievements: [
       "2 Badges",
       // "Top 30% globally",
-      "15 Days Streak"
     ],
     link: "https://leetcode.com/u/Nitin_777/",
     logo: "https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png",
@@ -47,11 +46,10 @@ const codingProfiles = [
   {
     name: "Geeks For Geeks",
     username: "nitinshukvrgf",
-    solved: "50+",
+    solved: "70+",
     rating: "--",
     achievements: [
       "Problem Solver",
-      "15+ Days Streak",
     ],
     link: "https://www.geeksforgeeks.org/user/nitinshukvrgf/",
     logo: assets.geeksforgeeks,
